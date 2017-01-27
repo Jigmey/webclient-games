@@ -1,0 +1,11 @@
+
+<% form_tag("/games", method: "get") do%>
+
+  <%= label_tag(:company) %>
+  <%= text_field_tag(:company, @game.company) %>
+
+  <%= label_tag(:name) %>
+  <%= text_field_tag(:name, @game.name) %>
+
+  <%= submit_tag("Edit") %>
+<%end%>

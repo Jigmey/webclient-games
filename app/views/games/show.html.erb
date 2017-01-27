@@ -1,0 +1,7 @@
+<p><%=@game.company%></p>
+<p><%=@game.name%></p>
+<p><%=@game.price%></p>
+<p><%=@game.date%></p>
+
+<%= link_to 'Delete', "/games/#{@game.id}", method: :delete  %>
+

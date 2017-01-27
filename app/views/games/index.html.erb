@@ -1,0 +1,8 @@
+<p>All the games</p>
+
+<% @game.each do |game|%>
+	<p><%=game.company%></p>
+	<p><%=game.name%></p>
+	<p><%=game.price%></p>
+	<p><%=game.date%></p>
+<%end%>
